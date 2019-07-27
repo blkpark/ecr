@@ -1,0 +1,10 @@
+**/.DS_Store
+**/.git
+**/.gitignore
+**/Makefile
+**/Dockerfile
+**/*~
+**/*.log
+**/*.md
+**/*.go
+**/*.org
