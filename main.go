@@ -157,6 +157,5 @@ func main() {
 	}
 
 	a := auths[0]
-	cmd := fmt.Sprintf("docker login -u %s -p %s %s", a.username, a.password, a.proxy)
-	fmt.Println(cmd)
+	fmt.Println(a.password)
 }

@@ -3,7 +3,7 @@ PROJECT := $(dir $(MAKEFILE))
 BIN := $(PROJECT)bin
 OUT := $(BIN)/ecr
 
-CONTAINER := golang:1.12.7
+CONTAINER := golang:1.14
 WORKDIR := /opt/ecr
 
 BASE := ghmlee/scratch:latest
