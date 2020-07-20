@@ -6,8 +6,8 @@ OUT := $(BIN)/ecr
 CONTAINER := golang:1.14
 WORKDIR := /opt/ecr
 
-BASE := ghmlee/scratch:latest
-TAG := ghmlee/ecr:latest
+BASE := blkpark/scratch:latest
+TAG := blkpark/ecr:latest
 
 export GOFLAGS=-mod=vendor
 export CGO_ENABLED=0

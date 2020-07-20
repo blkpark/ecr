@@ -1,5 +1,5 @@
-FROM ghmlee/scratch:latest
-MAINTAINER Graham Lee <ghmlee@ghmlee.com>
+FROM blkpark/scratch:latest
+MAINTAINER Blake Park <blkpark@blkpark.com>
 
 WORKDIR /opt/ecr
 
